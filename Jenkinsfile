@@ -1,7 +1,5 @@
 pipeline {
     agent any
-        label 'node'
-    }
     tools {
         nodejs 'npm'
     }
@@ -30,3 +28,4 @@ pipeline {
         }
     }
 
+}
